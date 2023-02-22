@@ -17,12 +17,12 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`sm:navbar lg:h-auto ${display} sm:p-4 bg-sky-400 p-2`}>
+      <nav className={`sm:navbar lg:h-auto ${display} sm:p-4 bg-black p-2 text-sky-600`}>
         <div className="flex justify-between sm:px-[2.1rem] font-display items-center lg:flex-row flex-col">
           <div className="flex justify-between items-center w-full mb-4 sm:mb-0 pb-4 lg:pb-0">
-            <div className="logo w-64 flex items-center justify-around text-2xl ">
+            <div className="logo sm:w-[19rem] flex items-center justify-around text-2xl ">
               <img src={Logo} alt="sheetal engineering Logo" className="w-8" />
-              <h4>
+              <h4 className="font-head text-3xl font-extrabold ">
                 <Link to="/">Sheetal Engineering</Link>
               </h4>
             </div>
@@ -31,7 +31,7 @@ export default function Navbar() {
               {click ? <HiXMark /> : <HiBars3 />}
             </div>
           </div>
-          <ul className="flex lg:flex-row lg:justify-between lg:w-[700px] lg:border-0 lg:py-0 w-full text-xl flex-col items-start justify-center gap-4 border-t-2 py-4">
+          <ul className="flex lg:flex-row lg:justify-between lg:w-[700px] lg:border-0 lg:py-0 w-full sm:text-xl text-[1rem] flex-col items-start justify-center gap-4 border-t-2 py-4">
             <li className="relative after:w-0 after:opacity-0 hover:after:absolute hover:after:w-[100%] hover:after:h-[3px] hover:after:bg-white hover:after:bottom-0 hover:after:left-[0px] hover:after:transition-all hover:after:ease-out hover:after:delay-200 hover:after:opacity-100 hover:after:m-auto">
               <Link
                 to="/"
