@@ -22,7 +22,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="flex lg:w-[400px] lg:mt-[120px] md:mt-[80px] sm:w-[60%] w-[100%] mx-auto mt-[180px] p-[20px] shadow-2xl shadow-black bg-white rounded-md">
+        <div className="flex lg:w-[400px] lg:mt-[120px] md:mt-[80px] sm:w-[60%] w-[100%] mx-auto mt-[140px] p-[20px] shadow-2xl shadow-black bg-white rounded-md">
           <div className="flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl w-[254px] mb-6 font-bold">
               Our Mission
