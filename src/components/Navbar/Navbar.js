@@ -4,7 +4,7 @@ import { HiXMark, HiBars3 } from "react-icons/hi2";
 import { FaHome, FaUserAlt } from "react-icons/fa";
 import { AiOutlineProject } from "react-icons/ai";
 import { BiInfoCircle } from "react-icons/bi";
-import Logo from "../Images/Logo/logo.png";
+import Logo from "../../Images/Logo/logo.png";
 
 export default function Navbar() {
   const [click, setClick] = useState(false);

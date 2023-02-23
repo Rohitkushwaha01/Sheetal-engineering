@@ -1,5 +1,5 @@
 import React from "react";
-import FrontImage from "../components/Images/engineer.jpg";
+import FrontImage from "../Images/engineer.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Card from "../components/Cards/Card";
 import Projects from "../components/Projects/Projects";

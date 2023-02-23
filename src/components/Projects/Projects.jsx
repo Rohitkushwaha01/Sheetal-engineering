@@ -1,8 +1,9 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
 import React from "react";
-import Project1 from "../Images/Project1.jpeg"
-import Project2 from "../Images/Project2.jpeg"
-import Project3 from "../Images/Project3.jpeg"
+// import Project1 from "../components/Images/Project1.jpeg"
+import Project1 from "../../Images/Project1.jpeg"
+import Project2 from "../../Images/Project2.jpeg"
+import Project3 from "../../Images/Project3.jpeg"
 
 export default function Projects() {
   return (
