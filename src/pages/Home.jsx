@@ -3,6 +3,8 @@ import FrontImage from "../Images/engineer.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Card from "../components/Cards/Card";
 import Projects from "../components/Projects/Projects";
+import Footer from "../components/Footer/Footer";
+
 
 export default function Home() {
   return (
@@ -54,6 +56,9 @@ export default function Home() {
 
       <section className="flex p-[3rem] bg-sky-600 w-full" id="section-3">
         <Projects/>
+      </section>
+      <section>
+        <Footer/>
       </section>
     </>
   );

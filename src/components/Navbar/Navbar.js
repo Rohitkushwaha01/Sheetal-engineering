@@ -31,7 +31,7 @@ export default function Navbar() {
               {click ? <HiXMark /> : <HiBars3 />}
             </div>
           </div>
-          <ul className="flex lg:flex-row lg:justify-between lg:w-[700px] lg:border-0 lg:py-0 w-full sm:text-xl text-[1rem] flex-col items-start justify-center gap-4 border-t-2 py-4">
+          <ul className="flex lg:flex-row lg:justify-between lg:w-[700px] lg:border-0 lg:py-0 w-full sm:text-xl text-[1rem] flex-col items-start justify-center gap-4 border-t-2 py-4 ">
             <li className="relative after:w-0 after:opacity-0 hover:after:absolute hover:after:w-[100%] hover:after:h-[3px] hover:after:bg-white hover:after:bottom-0 hover:after:left-[0px] hover:after:transition-all hover:after:ease-out hover:after:delay-200 hover:after:opacity-100 hover:after:m-auto">
               <Link
                 to="/"
