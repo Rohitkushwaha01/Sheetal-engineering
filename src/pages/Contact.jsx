@@ -3,9 +3,9 @@ import Footer from "../components/Footer/Footer";
 export default function Contact() {
   return (
     <>
-      <section class=" text-black dark:bg-gray-900 font-display">
+      <section class=" text-black font-display">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 class="mb-4 text-4xl font-head tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+          <h2 class="mb-4 text-4xl font-head tracking-tight font-extrabold text-center">
             Contact Us
           </h2>
           <p class="mb-8 lg:mb-16 font-light font-head text-center first-letter:sm:text-xl">
