@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`sm:navbar lg:h-auto ${display} sm:p-4 bg-black p-2 text-sky-600`}>
+      <nav className={`sm:navbar lg:h-auto ${display} sm:p-4 bg-black p-2 text-sky-600 sticky top-0 z-50`}>
         <div className="flex justify-between sm:px-[2.1rem] font-display items-center lg:flex-row flex-col">
           <div className="flex justify-between items-center w-full mb-4 sm:mb-0 pb-4 lg:pb-0">
             <div className="logo sm:w-[19rem] flex items-center justify-around text-2xl ">

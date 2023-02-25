@@ -1,8 +1,10 @@
+import Progress from "../components/Progress/Progress";
 import Footer from "../components/Footer/Footer";
 
 export default function Contact() {
   return (
     <>
+    <Progress/>
       <section class=" text-black font-display">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 class="mb-4 text-4xl font-head tracking-tight font-extrabold text-center">

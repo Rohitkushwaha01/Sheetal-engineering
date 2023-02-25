@@ -23,38 +23,131 @@ import Project22 from "../Images/Project22.jpeg";
 import Project23 from "../Images/Project23.jpeg";
 import Project24 from "../Images/Project24.jpeg";
 import Footer from "../components/Footer/Footer";
-
+import Progress from "../components/Progress/Progress";
 
 export default function Product() {
   return (
     <>
+      <Progress />
       <div className="flex sm:justify-between justify-center p-14 flex-wrap gap-10">
-        <img src={Project1} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project2} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project3} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project4} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project5} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project6} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project7} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project8} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project9} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project10} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project11} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project12} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project13} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
+        <img
+          src={Project1}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project2}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project3}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project4}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project5}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project6}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project7}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project8}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project9}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project10}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project11}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project12}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project13}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
         {/* <img src={Project14} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] w-[400px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/> */}
-        <img src={Project15} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project16} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project17} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project18} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project19} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project20} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project21} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project22} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project23} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
-        <img src={Project24} alt="" className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"/>
+        <img
+          src={Project15}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project16}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project17}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project18}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project19}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project20}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project21}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project22}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project23}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
+        <img
+          src={Project24}
+          alt=""
+          className="sm:w-[250px] w-[400px] sm:h-[250px] shadow-lg shadow-black rounded-xl transition-transform delay-150 hover:scale-105"
+        />
       </div>
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }

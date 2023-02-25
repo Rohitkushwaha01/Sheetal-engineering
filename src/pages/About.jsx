@@ -1,9 +1,10 @@
-import React from "react";
+import Progress from "../components/Progress/Progress";
 import Footer from "../components/Footer/Footer";
 
 export default function About() {
   return (
     <>
+    <Progress/>
       <section className="sm:p-14 p-2">
         <h1 className="font-head text-center text-4xl my-10">Who we are!</h1>
         <div className="h-full font-display sm:text-md text-md shadow-lg rounded-lg shadow-black p-4 my-8">

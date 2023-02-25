@@ -1,14 +1,34 @@
-import React from "react";
+import {React, useEffect} from "react";
 import FrontImage from "../Images/engineer.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Card from "../components/Cards/Card";
 import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
-
+import Progress from "../components/Progress/Progress";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function Home() {
+  const animationRight = useAnimation();
+  const { inView, entry, ref} = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      animationRight.start({
+        x: 0,
+        transition: {
+          delay: 0.7,
+          staggerChildren: 0.5,
+          default: { ease: "linear" },
+        },
+      });
+    }
+  }, [animationRight, inView]);
+
+
   return (
     <>
+      <Progress />
       <section className="flex" id="section-1">
         <img
           src={FrontImage}
@@ -50,15 +70,28 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex bg-white text-black relative w-full p-[3rem] " id="section-2">
-        <Card/>
-      </section>
+      <div ref={ref}>
+        <motion.section
+          className="flex bg-white text-black relative w-full p-[3rem] "
+        id="section-2"
+          initial={{
+            x: "100vw",
+          }}
+          animate={animationRight}
+        >
+          <Card />
+        </motion.section>
+      </div>
 
-      <section className="flex p-[3rem] bg-sky-600 w-full" id="section-3">
-        <Projects/>
-      </section>
+        <section
+          className="flex p-[3rem] bg-sky-600 w-full"
+          id="section-3"
+        >
+          <Projects />
+        </section>
+
       <section>
-        <Footer/>
+        <Footer />
       </section>
     </>
   );
