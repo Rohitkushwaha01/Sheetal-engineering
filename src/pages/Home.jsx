@@ -1,31 +1,12 @@
-import {React, useEffect} from "react";
+import { React, useEffect } from "react";
 import FrontImage from "../Images/engineer.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Card from "../components/Cards/Card";
 import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
 import Progress from "../components/Progress/Progress";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 
 export default function Home() {
-  const animationRight = useAnimation();
-  const { inView, entry, ref} = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      animationRight.start({
-        x: 0,
-        transition: {
-          delay: 0.7,
-          staggerChildren: 0.5,
-          default: { ease: "linear" },
-        },
-      });
-    }
-  }, [animationRight, inView]);
-
-
   return (
     <>
       <Progress />
@@ -33,7 +14,7 @@ export default function Home() {
         <img
           src={FrontImage}
           alt=""
-          className="absolute z-0 opacity-90 h-[600px] w-full object-cover"
+          className="absolute z-0 opacity-90 h-[700px] w-full object-cover"
         />
         <div className="flex flex-wrap justify-between sm:mx-10 m-4 font-display z-10 relative h-[450px] items-center sm:mt-aut0 mt-[50px] mb-28">
           <div className="company-des w-[60%] sm:p-4 flex-grow">
@@ -70,25 +51,16 @@ export default function Home() {
         </div>
       </section>
 
-      <div ref={ref}>
-        <motion.section
-          className="flex bg-white text-black relative w-full p-[3rem] "
+      {/* <section
+        className="flex bg-gray-900 text-black relative w-full p-[3rem] "
         id="section-2"
-          initial={{
-            x: "100vw",
-          }}
-          animate={animationRight}
-        >
-          <Card />
-        </motion.section>
-      </div>
+      >
+        <Card />
+      </section> */}
 
-        <section
-          className="flex p-[3rem] bg-sky-600 w-full"
-          id="section-3"
-        >
-          <Projects />
-        </section>
+      <section className="flex p-[3rem] bg-gray-300 w-full relative" id="section-3">
+        <Projects />
+      </section>
 
       <section>
         <Footer />

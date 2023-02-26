@@ -29,7 +29,7 @@ export default function Product() {
   return (
     <>
       <Progress />
-      <div className="flex sm:justify-between justify-center p-14 flex-wrap gap-10">
+      <div className="flex sm:justify-between bg-gray-700 justify-center p-14 flex-wrap gap-10">
         <img
           src={Project1}
           alt=""
