@@ -1,7 +1,6 @@
-import { React, useEffect } from "react";
+import { React} from "react";
 import FrontImage from "../Images/engineer.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import Card from "../components/Cards/Card";
 import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
 import Progress from "../components/Progress/Progress";
