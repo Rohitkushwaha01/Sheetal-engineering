@@ -9,7 +9,7 @@ const Data = [
     {
         id: 1,
         name: "Rohit kushwaha",
-        bio: "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie \ put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seita charcoal slow-carb marfa heanbing swag.",
+        bio: "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seita charcoal slow-carb marfa heanbing swag.",
         img_url: "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
         role: "Intern"   
     },
