@@ -4,10 +4,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
+import { DataProvider } from "./context/data.context";
 
 function App() {
   return (
     <>
+    <DataProvider>
       <Router>
         <Navbar></Navbar>
         <Routes>
@@ -17,6 +19,7 @@ function App() {
           <Route path="/product" element={<Product />} />
         </Routes>
       </Router>
+      </DataProvider>
     </>
   );
 }

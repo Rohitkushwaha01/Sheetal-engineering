@@ -4,6 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
 import Progress from "../components/Progress/Progress";
+import Main from "../components/Reviews/Main";
 
 export default function Home() {
   return (
@@ -50,15 +51,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section
-        className="flex bg-gray-900 text-black relative w-full p-[3rem] "
+
+
+      <section className="flex p-[3rem] bg-gray-900 w-full relative" id="section-3">
+        <Projects />
+      </section>
+
+      <section
+        className="flex flex-col bg-gray-500 text-white relative w-full p-[3rem] "
         id="section-2"
       >
-        <Card />
-      </section> */}
-
-      <section className="flex p-[3rem] bg-gray-300 w-full relative" id="section-3">
-        <Projects />
+        <Main/>
       </section>
 
       <section>
