@@ -13,17 +13,19 @@ export default function Footer() {
             <div className="flex items-center">
               <GoLocation className="w-[30px] font-bold text-5xl" />
               <address className="ml-6">
-                54 / 17, D-II Block, M.I.D.C., Chinchwad, Pune - 411 019,
-                Maharashtra, India.
+              <p>sheetal engineering,sant dnyaneshwar industrial</p>
+              <p>estate.opp to spaco carboratorors</p>
+              <p>D2 block mohan nagar MIDC chinchwad 411019</p>
+                
               </address>
             </div>
             <div className="flex items-center w-full">
               <BiPhoneCall className="w-[30px] font-bold text-5xl" />
-              <p className="ml-6">+91-9881084234</p>
+              <p className="ml-6">+91-9225647922</p>
             </div>
             <div className="flex items-center w-full">
               <AiOutlineMail className="w-[30px] font-bold text-5xl" />
-              <p className="ml-6">sheetal@gmail.com</p>
+              <p className="ml-6">sheetalengg1@yahoo.co.in</p>
             </div>
           </div>
           <div className="flex flex-col justify-between items-start h-[180px] flex-grow mb-10">

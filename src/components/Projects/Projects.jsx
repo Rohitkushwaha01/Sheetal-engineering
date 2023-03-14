@@ -1,9 +1,9 @@
-import { AiOutlineArrowRight } from "react-icons/ai";
 import React from "react";
 // import Project1 from "../components/Images/Project1.jpeg"
 import Project1 from "../../Images/Project1.jpeg"
 import Project2 from "../../Images/Project2.jpeg"
-import Project3 from "../../Images/Project3.jpeg"
+import Explore from "../Explore/Explore";
+import Project23 from "../../Images/Project23.jpeg";
 
 export default function Projects() {
   return (
@@ -23,10 +23,8 @@ export default function Projects() {
               veritatis ipsum commodi corrupti nostrum. Alias odit quam autem,
               aperiam dolore odio cum!
             </p>
-            <button className="flex justify-between items-center w-[120px] bg-black hover:bg-blue-700 text-blue-600 hover:text-black hover:font-bold py-2 px-4 rounded shadow-xl">
-              Explore
-              <AiOutlineArrowRight />
-            </button>
+          <Explore/>
+
           </div>
           <div className="items bg-white flex justify-between flex-col lg:h-full w-[300px] shadow-lg shadow-black sm:p-7 p-4 hover:text-sky-600 transition-colors delay-100 ease-in flex-grow border-2 gap-2 rounded-md">
             <img src={Project2} alt="" className="hover:scale-105 w-full mx-auto transition-all ease-in h-[250px]"/>
@@ -37,13 +35,11 @@ export default function Projects() {
               veritatis ipsum commodi corrupti nostrum. Alias odit quam autem,
               aperiam dolore odio cum!
             </p>
-            <button className="flex justify-between items-center w-[120px] bg-black hover:bg-blue-700 text-blue-600 hover:text-black hover:font-bold py-2 px-4 rounded ">
-              Explore
-              <AiOutlineArrowRight />
-            </button>
+            <Explore/>
+
           </div>
           <div className="items bg-white flex justify-between flex-col lg:h-full w-[300px] shadow-lg shadow-black sm:p-7 p-4 hover:text-sky-600 transition-colors delay-100 ease-in flex-grow border-2 gap-2 rounded-md">
-            <img src={Project3} alt="" className="hover:scale-105 w-full h-[250px] mx-auto transition-all ease-in"/>
+            <img src={Project23} alt="" className="hover:scale-105 w-full h-[250px] mx-auto transition-all ease-in"/>
             <h1 className="text-2xl font-bold font-head">Project Heading 2</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
@@ -51,10 +47,8 @@ export default function Projects() {
               veritatis ipsum commodi corrupti nostrum. Alias odit quam autem,
               aperiam dolore odio cum!
             </p>
-            <button className="flex justify-between items-center w-[120px] bg-black hover:bg-blue-700 text-blue-600 hover:text-black hover:font-bold py-2 px-4 rounded ">
-              Explore
-              <AiOutlineArrowRight />
-            </button>
+            <Explore/>
+
           </div>
         </div>
       </div>

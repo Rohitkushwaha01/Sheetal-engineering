@@ -9,39 +9,13 @@ export default function About() {
         <h1 className="font-head text-center text-4xl my-10">Who we are!</h1>
         <div className="h-full font-display sm:text-md text-md shadow-lg rounded-lg shadow-black p-4 my-8">
           <p className="mb-3">
-            Pradip Plastic Moulders Pvt. Ltd., (Pune) Established in 1996 Have
-            been certified as TS 16949 : 2009 company. The company is one of the
-            leading manufacturer of plastic technical blow moulded and injection
-            moulded for automobile and is committed to provide best quality to
-            the customers. We believe that it is team of motivated workforce is
-            the most important source of our infrastructure, manpower is
-            qualified with long experience and dedicated quality control which
-            has created a huge asset of satisfied customers as an OEM or second
-            tier supply chain member, Infrastructure is capable to meet the
-            requirements of plastic components based on their industrial
-            customers specifications. Pradip Plastic Moulders is an original
-            equipment manufacurer for automobile giants such as M/s. Tata Motors
-            Limited
+          We sheetal engineering Established in 1996 Have been certified as ISO:2008:2015 company. The company is one of the leading manufacturer of jig & fixtures,press tools,forging tools,inspection gauges,spares  for automobile and manufacturing companies.
           </p>
           <p className="mb-3">
-            Manufacturing is equipped with latest machinery to execute the
-            production of all it is components. Injection Moulding 50 Ton to 500
-            Ton & Blow Moulding 5 ltr to 100 ltrs, Manufacturing capability of
-            processing all types of thermoplastic raw materials including PP,
-            HDPE, LDPE, ABS, EVA, Engineering plastics like Nylon,
-            Polycarbonate, Talc filed, EPDM , TPE , TPV etc. Plastic components
-            manufactured are used in interior and exterior of automobile parts
-            which has vital and critical operation namely Surge Tanks,
-            Windshield Containers, Coolant Tank, De-aeration Tank, Hoses, Ducts
-            for air conditioner , Resonators , Ball Cage, Head Light Cover, Fuse
-            Box Cover, Bumper End Cover, Trim Clips, Bushes, Handles, Recliner
-            Knobs, Ducts, Brake & Clutch fluid Containers, Battery Cover, etc.
+          Our company is committed to provide best quality to the customers. We believe that it is team of motivated workforce is the most important source of our infrastructure, manpower is qualified with long experience and dedicated quality control which has created a huge asset of satisfied customers as an OEM or second tier supply chain member, Infrastructure is capable to meet the requirements of industrial customers specifications. Sheetal engineering is an original equipment manufacurer for automobile giants like Gestamp, Mahindra and Mahindra,sogefi adm,maxion wheels  and a lot more Manufacturing is equipped with latest machinery to execute the production of all it is components.
           </p>
           <p className="mb-3">
-            PRADIP PLASTIC MOULDERS have capability for design and develop molds
-            using CAD and 3D technology get the mold machining done on
-            sophisticated CNC Machines and carries out assembly and mould
-            development to meet the strict deadlines set by the customer.
+          Sheetal engineering  have capability for design and development of  the fixtures using designs technology,get the dies machining done on sophisticated VMC  and CNC Machines and carry out assembly as per the customers requirement.
           </p>
         </div>
       </section>
