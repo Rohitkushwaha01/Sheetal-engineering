@@ -17,19 +17,19 @@ export default function Home() {
         <Front/>
       </section>
 
-      <Section classes="flex p-[3rem] bg-gray-900 w-full relative" id="section-3">
+      <Section classes="flex sm:p-[3rem] p-[1rem] bg-gray-900 sm:w-full relative" id="section-3">
         <Projects/>
       </Section>
 
-      <Section classes="flex flex-col bg-gray-500 text-white relative w-full p-[3rem] " id="section-2">
+      <Section classes="flex flex-col bg-gray-500 text-white relative sm:w-full sm:p-[3rem] p-[1rem] " id="section-2">
         <Main />
       </Section>
 
-      <Section classes="flex p-[3rem] bg-gray-900 w-full relative" id="section-3">
+      <Section classes="flex sm:p-[3rem] p-[1rem] bg-gray-900 sm:w-full relative" id="section-3">
         <Clients />
       </Section>
 
-      <Section classes="flex p-[3rem] bg-gray-700 w-full relative" id="section-3">
+      <Section classes="flex sm:p-[3rem]  p-[1rem bg-gray-700 sm:w-full relative" id="section-3">
         <ContactCard />
       </Section>
 

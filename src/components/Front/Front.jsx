@@ -12,7 +12,7 @@ export default function Front() {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.4,
+        delayChildren: 0.7,
         staggerChildren: 0.2,
         ease: [0.075, 0.82, 0.165, 1]
       }
