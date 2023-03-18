@@ -1,4 +1,4 @@
-import React from "react";
+import {React} from "react";
 // import Project1 from "../components/Images/Project1.jpeg"
 import Project1 from "../../Images/Project1.jpeg"
 import Project2 from "../../Images/Project2.jpeg"
@@ -6,6 +6,7 @@ import Explore from "../Explore/Explore";
 import Project23 from "../../Images/Project23.jpeg";
 
 export default function Projects() {
+
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full">
