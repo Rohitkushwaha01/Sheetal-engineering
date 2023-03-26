@@ -5,12 +5,12 @@ import ContactCard from "../components/ContactCard/ContactCard";
 export default function Contact() {
   return (
     <>
-    <Progress/>
+      <Progress />
       <section class="font-display bg-gray-700 text-white">
-        <ContactCard/>
+        <ContactCard />
       </section>
       <section>
-        <Footer/>
+        <Footer />
       </section>
     </>
   );

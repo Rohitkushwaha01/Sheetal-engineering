@@ -29,6 +29,11 @@ export default function Product() {
   return (
     <>
       <Progress />
+      <div className="bg-gray-700">
+        <h1 className="text-center text-3xl text-white py-3 font-bold ">
+          Our Best Products
+        </h1>
+      </div>
       <div className="flex sm:justify-between bg-gray-700 justify-center p-14 flex-wrap gap-10">
         <img
           src={Project1}

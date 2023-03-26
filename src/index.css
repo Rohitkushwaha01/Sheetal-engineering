@@ -4,63 +4,32 @@
 
 /* custom css */
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
-.navbar{
-    height: 80px;
-    overflow:hidden;
-    transition: height .5s ease-in-out;
+.navbar {
+  height: 80px;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
 }
 
-.animated{
-    height: 280px;
-    overflow:hidden;
-    transition: height .5s ease-in-out;
+.animated {
+  height: 280px;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
 }
 
-
-@media screen and (max-width: 425px){
-    .logo{
-        font-size: 1rem;
-        width: 15rem;
-    }
-    .navbar-logo{
-        font-size: 1.5rem;
-    }
-    #section-2, #section-3{
-        padding: 3rem 0.5rem!important;
-    }
-}
-
-.loadingSpinnerContainer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 5000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 425px) {
+  .logo {
+    font-size: 1rem;
+    width: 15rem;
   }
-  
-  .loadingSpinner {
-    width: 64px;
-    height: 64px;
-    border: 8px solid;
-    border-color: #000 transparent #555 transparent;
-    border-radius: 50%;
-    animation: spin 1.2s linear infinite;
+  .navbar-logo {
+    font-size: 1.5rem;
   }
-  
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  #section-2,
+  #section-3 {
+    padding: 3rem 0.5rem !important;
   }
+}

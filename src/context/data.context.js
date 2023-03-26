@@ -9,23 +9,20 @@ export const DataProvider = ({ children }) => {
 
   const onRightClick = () => {
     id++;
-    if(id === Data.length){
-        id = 0;
+    if (id === Data.length) {
+      id = 0;
     }
-    console.log(id);
     setData(Data[id]);
   };
 
   const onLeftClick = () => {
     id--;
-    if(id >=0 && id < 4){
-        console.log(id);
-        setData(Data[id]);
-    }else{
-        id = Data.length - 1;
-        setData(Data[id]);
+    if (id >= 0 && id < 4) {
+      setData(Data[id]);
+    } else {
+      id = Data.length - 1;
+      setData(Data[id]);
     }
-    
   };
 
   return (

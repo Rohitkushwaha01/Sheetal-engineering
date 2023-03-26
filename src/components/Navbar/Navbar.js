@@ -17,7 +17,9 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`sm:navbar lg:h-auto ${display} sm:p-4 bg-gray-900  p-2 text-white sticky top-0 z-50`}>
+      <nav
+        className={`sm:navbar lg:h-auto ${display} sm:p-4 bg-gray-900  p-2 text-white sticky top-0 z-50`}
+      >
         <div className="flex justify-between sm:px-[2.1rem] font-display items-center lg:flex-row flex-col">
           <div className="flex justify-between items-center w-full mb-4 sm:mb-0 pb-4 lg:pb-0">
             <div className="logo sm:w-[19rem] flex items-center justify-around text-2xl ">
@@ -37,7 +39,7 @@ export default function Navbar() {
                 to="/"
                 className="hover:text-white flex justify-between items-center w-full"
               >
-                <FaHome className="mr-2"/>
+                <FaHome className="mr-2" />
                 Home
               </Link>
             </li>
@@ -46,7 +48,7 @@ export default function Navbar() {
                 to="/product"
                 className="hover:text-white flex justify-between items-center w-full"
               >
-                <AiOutlineProject className="mr-2"/>
+                <AiOutlineProject className="mr-2" />
                 Products
               </Link>
             </li>
@@ -55,7 +57,7 @@ export default function Navbar() {
                 to="/contact"
                 className="hover:text-white flex justify-between items-center w-full"
               >
-                <FaUserAlt className="mr-2"/>
+                <FaUserAlt className="mr-2" />
                 Contact
               </Link>
             </li>
@@ -64,7 +66,7 @@ export default function Navbar() {
                 to="/about"
                 className="hover:text-white flex justify-between items-center w-full"
               >
-                <BiInfoCircle className="mr-2"/>
+                <BiInfoCircle className="mr-2" />
                 About
               </Link>
             </li>
